@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url("ransanmoi.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+audio {
+    position: relative;
+    top: -240px; right: -300px;
+}
+canvas {
+    border: 5px solid black;
+}
+.side-information {
+    background-color: aliceblue;
+    border: 5px solid chocolate;
+    height: 380px; width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+h1{
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 25px;
+    color: darkred;
+    text-align: center;
+    margin: 10px 5px 5px 5px;
+}
+#start, #reset {
+    width: 55%;
+    display: inline-block;
+    background-color: chocolate;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 5px 42px;
+    border: none;
+}
